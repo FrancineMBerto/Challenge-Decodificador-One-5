@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Codificador e Decodificador de Texto</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" type="image/png" href="icon.png">
+
+	</head>
+	<body>
+		<header class="cabecalho">
+			<img src="logo.png" alt="Logotipo Alura, Codificador e Decodificador de Texto">
+			<div class="challengeText">lura Challenge</div>
+		</header>
+
+		<main class="main">
+			<div class="container">
+				<textarea rows="10" cols="25" class="inputText" required placeholder="digite seu texto"></textarea>	
+			</div>
+			<div class="aviso1">
+				<p class="interrog">!</p>
+				<p> Apenas letras minúsculas sem acento.</p>
+			</div>
+
+			<div class="botoes">
+				<button type="button" class="botaoCriptografar" onclick="criptografar()">Criptografar</button>
+				<button type= "button" class="botaoDescriptografar" onclick="descriptografar()">Descriptografar</button>
+			</div>
+
+			<div class="retangulo">
+				<div class="aviso2">
+					<img class="desenho" src="desenho.png" alt="personagem com uma lupa">
+
+					<div class="mensagem">
+						<h2>Nenhuma mensagem<br>encontrada</h2>	
+						<p>Digite um texto que você deseja<br>criptografar ou descriptografar.</p>
+					</div>
+				</div>
+				</div>
+
+				<div class="botaoDeCopiar">
+					<input type="button" class="copiar" value="Copiar">
+				</div>
+
+				<div class="chave">
+					<p class="textoChave"></p>
+				</div>
+		</main>
+		<footer>
+			<p>♡ Desenvolvido por Francine Martim Berto</p>
+			<a href="https://www.linkedin.com/in/francinemberto"><ion-icon name="logo-linkedin"></ion-icon></a>
+			<a href="https://github.com/FrancineMBerto"><ion-icon name="logo-github"></ion-icon></a>
+			<p>♡</p>
+
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
+
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
